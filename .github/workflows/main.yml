@@ -19,6 +19,6 @@ jobs:
     steps:
       - run: ls -al
       - uses: actions/checkout@v3
-      - run: ls -al .github/workflows
-      
+      - run: ls -al 
+      - run: cat .github/workflows/main.yml
       

@@ -22,5 +22,5 @@ jobs:
         with:
           path: our-source
       - run: ls -al 
-      - run: la -al our-source
+      - run: ls -al our-source
       
